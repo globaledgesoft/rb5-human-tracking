@@ -1,1 +1,1 @@
-Models will be updated soon.
+Model files are uploaded via Git LFS.
