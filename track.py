@@ -36,7 +36,7 @@ def find_match(emb, test_emb):
 def start_tracking(person):
 	embedings = create_embedding(dlc, person)
 	alignment = AlignDlib('models/shape_predictor_68_face_landmarks.dat')
-	cam = cv2.VideoCapture(2)
+	cam = cv2.VideoCapture(qtiqmmfsrc name=qmmf ! video/x-raw, format=NV12, width=640, height=480, framerate=30/1 ! videoconvert ! video/x-raw,format=BGR ! appsink drop=1", cv2.CAP_GSTREAMER)
 	face_not_found = True 
 	while face_not_found:
 		ret, frame = cam.read()
